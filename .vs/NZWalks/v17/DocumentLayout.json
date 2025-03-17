@@ -7,6 +7,30 @@
       "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\customactionfilters\\validatemodelattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\customactionfilters\\validatemodelattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\models\\dto\\updatewalkrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\models\\dto\\updatewalkrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\models\\dto\\updateregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\models\\dto\\updateregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\models\\dto\\addwalksrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\models\\dto\\addwalksrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\models\\dto\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\models\\dto\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\repositories\\sqlwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\repositories\\sqlwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\models\\dto\\updatewalkrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\models\\dto\\updatewalkrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\mappings\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\models\\dto\\difficultydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\models\\dto\\addwalksrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\models\\dto\\addwalksrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,11 +86,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ValidateModelAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\CustomActionFilters\\ValidateModelAttribute.cs",
+              "RelativeDocumentMoniker": "NZWalks.API\\CustomActionFilters\\ValidateModelAttribute.cs",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\CustomActionFilters\\ValidateModelAttribute.cs",
+              "RelativeToolTip": "NZWalks.API\\CustomActionFilters\\ValidateModelAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T21:08:27.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateRegionRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Models\\DTO\\UpdateRegionRequestDto.cs",
+              "RelativeDocumentMoniker": "NZWalks.API\\Models\\DTO\\UpdateRegionRequestDto.cs",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Models\\DTO\\UpdateRegionRequestDto.cs",
+              "RelativeToolTip": "NZWalks.API\\Models\\DTO\\UpdateRegionRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:55:10.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegionsController.cs",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\RegionsController.cs",
+              "RelativeDocumentMoniker": "NZWalks.API\\Controllers\\RegionsController.cs",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\RegionsController.cs",
+              "RelativeToolTip": "NZWalks.API\\Controllers\\RegionsController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:49:28.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddRegionRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Models\\DTO\\AddRegionRequestDto.cs",
+              "RelativeDocumentMoniker": "NZWalks.API\\Models\\DTO\\AddRegionRequestDto.cs",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Models\\DTO\\AddRegionRequestDto.cs",
+              "RelativeToolTip": "NZWalks.API\\Models\\DTO\\AddRegionRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T20:44:39.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\appsettings.json",
               "RelativeDocumentMoniker": "NZWalks.API\\appsettings.json",
@@ -82,25 +150,24 @@
               "RelativeToolTip": "NZWalks.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-17T01:43:58.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T01:43:58.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "UpdateWalkRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Models\\DTO\\UpdateWalkRequestDto.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Models\\DTO\\UpdateWalkRequestDto.cs",
               "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Models\\DTO\\UpdateWalkRequestDto.cs",
               "RelativeToolTip": "NZWalks.API\\Models\\DTO\\UpdateWalkRequestDto.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T01:36:27.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "DifficultyDto.cs",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Models\\DTO\\DifficultyDto.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Models\\DTO\\DifficultyDto.cs",
@@ -108,12 +175,11 @@
               "RelativeToolTip": "NZWalks.API\\Models\\DTO\\DifficultyDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T01:03:24.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T01:03:24.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "SQLWalkRepository.cs",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Repositories\\SQLWalkRepository.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Repositories\\SQLWalkRepository.cs",
@@ -121,12 +187,11 @@
               "RelativeToolTip": "NZWalks.API\\Repositories\\SQLWalkRepository.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAgwB8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T00:30:18.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T00:30:18.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "IWalkRepository.cs",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Repositories\\IWalkRepository.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Repositories\\IWalkRepository.cs",
@@ -134,12 +199,11 @@
               "RelativeToolTip": "NZWalks.API\\Repositories\\IWalkRepository.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAtwA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T00:28:09.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T00:28:09.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "AutoMapperProfiles.cs",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Mappings\\AutoMapperProfiles.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Mappings\\AutoMapperProfiles.cs",
@@ -147,12 +211,11 @@
               "RelativeToolTip": "NZWalks.API\\Mappings\\AutoMapperProfiles.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T00:20:02.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T00:20:02.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Walk.cs",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Models\\Domain\\Walk.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Models\\Domain\\Walk.cs",
@@ -160,12 +223,11 @@
               "RelativeToolTip": "NZWalks.API\\Models\\Domain\\Walk.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T00:17:13.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T00:17:13.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "NZWalksDbContext.cs",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Data\\NZWalksDbContext.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Data\\NZWalksDbContext.cs",
@@ -173,12 +235,11 @@
               "RelativeToolTip": "NZWalks.API\\Data\\NZWalksDbContext.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAIAxwBQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T23:45:26.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T23:45:26.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "WalkDto.cs",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Models\\DTO\\WalkDto.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Models\\DTO\\WalkDto.cs",
@@ -186,8 +247,7 @@
               "RelativeToolTip": "NZWalks.API\\Models\\DTO\\WalkDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T00:38:46.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T00:38:46.977Z"
             },
             {
               "$type": "Document",
@@ -197,14 +257,14 @@
               "RelativeDocumentMoniker": "NZWalks.API\\Controllers\\WalksController.cs",
               "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\WalksController.cs",
               "RelativeToolTip": "NZWalks.API\\Controllers\\WalksController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-16T00:12:31.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Difficulty.cs",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Models\\Domain\\Difficulty.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Models\\Domain\\Difficulty.cs",
@@ -212,24 +272,24 @@
               "RelativeToolTip": "NZWalks.API\\Models\\Domain\\Difficulty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T01:06:14.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T01:06:14.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "AddWalksRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Models\\DTO\\AddWalksRequestDto.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Models\\DTO\\AddWalksRequestDto.cs",
               "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Models\\DTO\\AddWalksRequestDto.cs",
               "RelativeToolTip": "NZWalks.API\\Models\\DTO\\AddWalksRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T00:15:53.738Z"
+              "WhenOpened": "2025-03-16T00:15:53.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "SQLRegionRepository.cs",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Repositories\\SQLRegionRepository.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Repositories\\SQLRegionRepository.cs",
@@ -237,12 +297,11 @@
               "RelativeToolTip": "NZWalks.API\\Repositories\\SQLRegionRepository.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwBwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T00:32:28.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-16T00:32:28.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Program.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Program.cs",
@@ -254,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Region.cs",
               "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Models\\Domain\\Region.cs",
               "RelativeDocumentMoniker": "NZWalks.API\\Models\\Domain\\Region.cs",
