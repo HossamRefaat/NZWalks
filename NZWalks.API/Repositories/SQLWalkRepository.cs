@@ -42,13 +42,51 @@ namespace NZWalks.API.Repositories
 
             return walkEntity;
         }
-        public async Task<IEnumerable<Walk>> GetWalksAsync()
+        public async Task<IEnumerable<Walk>> GetWalksAsync(string? filterOn = null, string? filterQuery = null,
+            string? sortBy = null, bool isAscending = true,
+            int pageNumber = 1, int pageSize = 1000)
         {
-            var walkEntities = await _context.Walks
+            var walks = _context.Walks
                 .Include(w => w.Difficulty)
                 .Include(w => w.Region)
-                .ToListAsync();
-            return walkEntities;
+                .AsQueryable();
+
+            //Apply filtering
+            if(string.IsNullOrWhiteSpace(filterOn) == false && string.IsNullOrWhiteSpace(filterQuery) == false)
+            {
+                if (filterOn.Equals("Name", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = walks.Where(x => x.Name.Contains(filterQuery));
+                }
+                else if(filterOn.Equals("Description", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = walks.Where(x => x.Description.Contains(filterQuery));
+                }
+                else if(filterOn.Equals("LengthInKm", StringComparison.OrdinalIgnoreCase))
+                {
+                    var isDouble = double.TryParse(filterQuery, out double lengthInKm);
+                    if (isDouble)
+                        walks = walks.Where(x => x.LengthInKm == lengthInKm);
+                }
+            }
+
+            //Apply sorting
+            if(string.IsNullOrWhiteSpace(sortBy) == false)
+            {
+                if(sortBy.Equals("name", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = isAscending? walks.OrderBy(x => x.Name) : walks.OrderByDescending(x => x.Name);
+                }
+                else if (sortBy.Equals("lengthinkm", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = isAscending ? walks.OrderBy(x => x.LengthInKm) : walks.OrderByDescending(x => x.LengthInKm);
+                }
+            }
+
+            //Apply pagination
+            var skipAmount = pageSize * (pageNumber - 1);
+
+            return await walks.Skip(skipAmount).Take(pageSize).ToListAsync();
         }
         public async Task<IEnumerable<Walk>> GetWalksByDifficultyIdAsync(Guid difficultyId)
         {
