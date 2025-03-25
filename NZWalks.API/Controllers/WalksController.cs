@@ -37,7 +37,9 @@ namespace NZWalks.API.Controllers
             [FromQuery] string? sortBy, [FromQuery] bool? isAscending,
             [FromQuery] int pageNumber = 1, [FromQuery] int pageSize = 1000)
         {
-            var walks = await _walkRepository.GetWalksAsync(filterOn, filterQuery, sortBy, isAscending ?? true, pageNumber, pageSize);
+            var walks = await _walkRepository.GetWalksAsync(filterOn, filterQuery,
+                sortBy, isAscending ?? true, pageNumber, pageSize);
+
             return Ok(_mapper.Map<IEnumerable<WalkDto>>(walks));    
         }
 

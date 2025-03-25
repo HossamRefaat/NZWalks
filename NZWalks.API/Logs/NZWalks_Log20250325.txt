@@ -1,0 +1,156 @@
+2025-03-25 07:08:06.111 +02:00 [INF] User profile is available. Using 'C:\Users\hossa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 07:08:06.541 +02:00 [INF] Now listening on: https://localhost:7103
+2025-03-25 07:08:06.544 +02:00 [INF] Now listening on: http://localhost:5006
+2025-03-25 07:08:06.721 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 07:08:06.723 +02:00 [INF] Hosting environment: Development
+2025-03-25 07:08:06.725 +02:00 [INF] Content root path: C:\Users\hossa\OneDrive\Desktop\NZWalks\NZWalks\NZWalks.API
+2025-03-25 07:08:07.308 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/index.html - null null
+2025-03-25 07:08:07.564 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/index.html - 200 null text/html;charset=utf-8 265.7101ms
+2025-03-25 07:08:07.609 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-25 07:08:07.618 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 9.3827ms
+2025-03-25 07:08:07.723 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/_vs/browserLink - null null
+2025-03-25 07:08:07.780 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.7689ms
+2025-03-25 07:08:07.850 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/v1/swagger.json - null null
+2025-03-25 07:08:07.875 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.257ms
+2025-03-25 07:08:53.326 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/api/Regions - null null
+2025-03-25 07:08:53.414 +02:00 [INF] Executing endpoint 'NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API)'
+2025-03-25 07:08:53.444 +02:00 [INF] Route matched with {action = "GetAll", controller = "Regions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller NZWalks.API.Controllers.RegionsController (NZWalks.API).
+2025-03-25 07:08:53.799 +02:00 [ERR] This is a test exception
+System.Exception: This is a test exception
+   at NZWalks.API.Controllers.RegionsController.GetAll() in C:\Users\hossa\OneDrive\Desktop\NZWalks\NZWalks\NZWalks.API\Controllers\RegionsController.cs:line 36
+2025-03-25 07:08:54.057 +02:00 [INF] Executed action NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API) in 604.3004ms
+2025-03-25 07:08:54.107 +02:00 [INF] Executed endpoint 'NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API)'
+2025-03-25 07:08:54.206 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: This is a test exception
+   at NZWalks.API.Controllers.RegionsController.GetAll() in C:\Users\hossa\OneDrive\Desktop\NZWalks\NZWalks\NZWalks.API\Controllers\RegionsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-25 07:08:54.223 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/api/Regions - 500 null text/plain; charset=utf-8 897.1948ms
+2025-03-25 07:48:04.601 +02:00 [INF] User profile is available. Using 'C:\Users\hossa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 07:48:05.130 +02:00 [INF] Now listening on: https://localhost:7103
+2025-03-25 07:48:05.134 +02:00 [INF] Now listening on: http://localhost:5006
+2025-03-25 07:48:05.609 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 07:48:05.612 +02:00 [INF] Hosting environment: Development
+2025-03-25 07:48:05.614 +02:00 [INF] Content root path: C:\Users\hossa\OneDrive\Desktop\NZWalks\NZWalks\NZWalks.API
+2025-03-25 07:48:05.804 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/index.html - null null
+2025-03-25 07:48:06.115 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/index.html - 200 null text/html;charset=utf-8 322.0786ms
+2025-03-25 07:48:06.155 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-25 07:48:06.165 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 10.7413ms
+2025-03-25 07:48:06.268 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/_vs/browserLink - null null
+2025-03-25 07:48:06.324 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.3142ms
+2025-03-25 07:48:06.402 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/v1/swagger.json - null null
+2025-03-25 07:48:06.435 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.4603ms
+2025-03-25 07:48:38.846 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/api/Walks?pageNumber=1&pageSize=1000 - null null
+2025-03-25 07:48:38.956 +02:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (NZWalks.API)'
+2025-03-25 07:48:39.004 +02:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (NZWalks.API).
+2025-03-25 07:48:39.496 +02:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-03-25 07:48:39.533 +02:00 [INF] Executed action NZWalks.API.Controllers.WalksController.GetAll (NZWalks.API) in 520.2032ms
+2025-03-25 07:48:39.535 +02:00 [INF] Executed endpoint 'NZWalks.API.Controllers.WalksController.GetAll (NZWalks.API)'
+2025-03-25 07:48:39.538 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/api/Walks?pageNumber=1&pageSize=1000 - 500 null application/problem+json; charset=utf-8 692.3186ms
+2025-03-25 08:05:22.470 +02:00 [INF] User profile is available. Using 'C:\Users\hossa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 08:05:22.766 +02:00 [FTL] Application startup exception
+System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' property must be set in 'UseExceptionHandler()'. Alternatively, set one of the aforementioned properties in 'Startup.ConfigureServices' as follows: 'services.AddExceptionHandler(options => { ... });' or configure to generate a 'ProblemDetails' response in 'service.AddProblemDetails()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener, IEnumerable`1 exceptionHandlers, IMeterFactory meterFactory, IProblemDetailsService problemDetailsService)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-03-25 08:05:22.901 +02:00 [ERR] Hosting failed to start
+System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' property must be set in 'UseExceptionHandler()'. Alternatively, set one of the aforementioned properties in 'Startup.ConfigureServices' as follows: 'services.AddExceptionHandler(options => { ... });' or configure to generate a 'ProblemDetails' response in 'service.AddProblemDetails()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener, IEnumerable`1 exceptionHandlers, IMeterFactory meterFactory, IProblemDetailsService problemDetailsService)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-03-25 08:06:04.486 +02:00 [INF] User profile is available. Using 'C:\Users\hossa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 08:06:04.852 +02:00 [INF] Now listening on: https://localhost:7103
+2025-03-25 08:06:04.856 +02:00 [INF] Now listening on: http://localhost:5006
+2025-03-25 08:06:05.180 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 08:06:05.182 +02:00 [INF] Hosting environment: Development
+2025-03-25 08:06:05.183 +02:00 [INF] Content root path: C:\Users\hossa\OneDrive\Desktop\NZWalks\NZWalks\NZWalks.API
+2025-03-25 08:06:05.492 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/index.html - null null
+2025-03-25 08:06:05.787 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/index.html - 200 null text/html;charset=utf-8 306.4504ms
+2025-03-25 08:06:05.970 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-25 08:06:05.970 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/_vs/browserLink - null null
+2025-03-25 08:06:05.983 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 13.1508ms
+2025-03-25 08:06:06.044 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.052ms
+2025-03-25 08:06:06.142 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/v1/swagger.json - null null
+2025-03-25 08:06:06.190 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.4241ms
+2025-03-25 08:08:35.544 +02:00 [INF] User profile is available. Using 'C:\Users\hossa\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-25 08:08:35.881 +02:00 [INF] Now listening on: https://localhost:7103
+2025-03-25 08:08:35.883 +02:00 [INF] Now listening on: http://localhost:5006
+2025-03-25 08:08:36.064 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-25 08:08:36.065 +02:00 [INF] Hosting environment: Development
+2025-03-25 08:08:36.066 +02:00 [INF] Content root path: C:\Users\hossa\OneDrive\Desktop\NZWalks\NZWalks\NZWalks.API
+2025-03-25 08:08:36.767 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/index.html - null null
+2025-03-25 08:08:37.074 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/index.html - 200 null text/html;charset=utf-8 320.4434ms
+2025-03-25 08:08:37.124 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-25 08:08:37.134 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/_framework/aspnetcore-browser-refresh.js - 200 16507 application/javascript; charset=utf-8 10.3782ms
+2025-03-25 08:08:37.271 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/_vs/browserLink - null null
+2025-03-25 08:08:37.336 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.4123ms
+2025-03-25 08:08:37.435 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/swagger/v1/swagger.json - null null
+2025-03-25 08:08:37.468 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.1618ms
+2025-03-25 08:09:17.788 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7103/api/Walks?pageNumber=1&pageSize=1000 - null null
+2025-03-25 08:09:17.889 +02:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (NZWalks.API)'
+2025-03-25 08:09:17.931 +02:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (NZWalks.API).
+2025-03-25 08:09:19.375 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-03-25 08:09:19.378 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-03-25 08:09:20.184 +02:00 [INF] Executed DbCommand (81ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [w0].[Id], [w0].[Description], [w0].[DifficultyId], [w0].[LengthInKm], [w0].[Name], [w0].[RegionId], [w0].[WalkImageUrl], [d].[Id], [d].[Name], [r].[Id], [r].[Code], [r].[Name], [r].[RegionImageUrl]
+FROM (
+    SELECT [w].[Id], [w].[Description], [w].[DifficultyId], [w].[LengthInKm], [w].[Name], [w].[RegionId], [w].[WalkImageUrl]
+    FROM [Walks] AS [w]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [w0]
+INNER JOIN [Difficulties] AS [d] ON [w0].[DifficultyId] = [d].[Id]
+INNER JOIN [Regions] AS [r] ON [w0].[RegionId] = [r].[Id]
+2025-03-25 08:09:20.597 +02:00 [INF] Executed action NZWalks.API.Controllers.WalksController.GetAll (NZWalks.API) in 2658.7065ms
+2025-03-25 08:09:20.686 +02:00 [INF] Executed endpoint 'NZWalks.API.Controllers.WalksController.GetAll (NZWalks.API)'
+2025-03-25 08:09:20.865 +02:00 [ERR] 7042ed46-c158-455a-93bb-c0903f459b92 : This is a test exception
+System.Exception: This is a test exception
+   at NZWalks.API.Controllers.WalksController.GetAll(String filterOn, String filterQuery, String sortBy, Nullable`1 isAscending, Int32 pageNumber, Int32 pageSize) in C:\Users\hossa\OneDrive\Desktop\NZWalks\NZWalks\NZWalks.API\Controllers\WalksController.cs:line 42
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NZWalks.API.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\hossa\OneDrive\Desktop\NZWalks\NZWalks\NZWalks.API\Middlewares\ExceptionHandlerMiddleware.cs:line 22
+2025-03-25 08:09:20.934 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7103/api/Walks?pageNumber=1&pageSize=1000 - 500 null application/json; charset=utf-8 3145.6622ms

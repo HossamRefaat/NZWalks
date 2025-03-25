@@ -7,47 +7,38 @@ using NZWalks.API.Data;
 using NZWalks.API.Models.Domain;
 using NZWalks.API.Models.DTO;
 using NZWalks.API.Repositories;
+using System.Text.Json;
 
 namespace NZWalks.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class RegionsController : ControllerBase
     {
         private readonly IRegionRepository _regionRepository;
         private readonly AutoMapper.IMapper _mapper;
+        private readonly ILogger<RegionsController> logger;
 
-        public RegionsController(IRegionRepository regionRepository, AutoMapper.IMapper mapper)
+        public RegionsController(IRegionRepository regionRepository,
+            AutoMapper.IMapper mapper, ILogger<RegionsController> logger)
         {
             _regionRepository = regionRepository;
             _mapper = mapper;
+            this.logger = logger;
         }
 
         [HttpGet]
         [Authorize(Roles = "Reader")]
         public async Task<IActionResult> GetAll()
         {
-            //Get data from database - domain model 
-            var regions =  await _regionRepository.GetAllAsync();
+              //Get data from database - domain model 
+                var regions = await _regionRepository.GetAllAsync();
 
-            //map domain model to DTOs
-            //var regionsDto = new List<RegionDto>();
-            //foreach (var region in regions)
-            //{
-            //    regionsDto.Add(new RegionDto
-            //    {
-            //        Id = region.Id,
-            //        Code = region.Code,
-            //        Name = region.Name,
-            //        RegionImageUrl = region.RegionImageUrl
-            //    });
-            //}
+                //map domain model to DTOs using AutoMapper
 
-            //map domain model to DTOs using AutoMapper
-            var regionsDto = _mapper.Map<List<RegionDto>>(regions);
+                var regionsDto = _mapper.Map<List<RegionDto>>(regions);
+                return Ok(regionsDto);
 
-            return Ok(regionsDto);
         }
 
         [HttpGet]
