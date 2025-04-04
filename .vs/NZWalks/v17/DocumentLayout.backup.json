@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B92EA8A8-AE73-4DC7-88F6-AB75EF17820C}|NZWalks.UI\\NZWalks.UI.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.ui\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B92EA8A8-AE73-4DC7-88F6-AB75EF17820C}|NZWalks.UI\\NZWalks.UI.csproj|solutionrelative:nzwalks.ui\\controllers\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B92EA8A8-AE73-4DC7-88F6-AB75EF17820C}|NZWalks.UI\\NZWalks.UI.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.ui\\views\\region\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B92EA8A8-AE73-4DC7-88F6-AB75EF17820C}|NZWalks.UI\\NZWalks.UI.csproj|solutionrelative:nzwalks.ui\\views\\region\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B92EA8A8-AE73-4DC7-88F6-AB75EF17820C}|NZWalks.UI\\NZWalks.UI.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.ui\\views\\region\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B92EA8A8-AE73-4DC7-88F6-AB75EF17820C}|NZWalks.UI\\NZWalks.UI.csproj|solutionrelative:nzwalks.ui\\views\\region\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2D18415-9339-4D11-820A-C0EBA3258AD6}|NZWalks.API\\NZWalks.API.csproj|solutionrelative:nzwalks.api\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B92EA8A8-AE73-4DC7-88F6-AB75EF17820C}|NZWalks.UI\\NZWalks.UI.csproj|c:\\users\\hossa\\onedrive\\desktop\\nzwalks\\nzwalks\\nzwalks.ui\\views\\region\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B92EA8A8-AE73-4DC7-88F6-AB75EF17820C}|NZWalks.UI\\NZWalks.UI.csproj|solutionrelative:nzwalks.ui\\views\\region\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,32 +30,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ExceptionHandlerMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Middlewares\\ExceptionHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "NZWalks.API\\Middlewares\\ExceptionHandlerMiddleware.cs",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Middlewares\\ExceptionHandlerMiddleware.cs",
-              "RelativeToolTip": "NZWalks.API\\Middlewares\\ExceptionHandlerMiddleware.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T05:51:36.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WalksController.cs",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\WalksController.cs",
-              "RelativeDocumentMoniker": "NZWalks.API\\Controllers\\WalksController.cs",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\WalksController.cs",
-              "RelativeToolTip": "NZWalks.API\\Controllers\\WalksController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T05:11:41.107Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.UI\\Views\\Region\\Index.cshtml",
+              "RelativeDocumentMoniker": "NZWalks.UI\\Views\\Region\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.UI\\Views\\Region\\Index.cshtml",
+              "RelativeToolTip": "NZWalks.UI\\Views\\Region\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T06:07:50.443Z",
               "EditorCaption": ""
             },
             {
@@ -62,23 +53,59 @@
               "RelativeDocumentMoniker": "NZWalks.API\\Controllers\\RegionsController.cs",
               "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Controllers\\RegionsController.cs",
               "RelativeToolTip": "NZWalks.API\\Controllers\\RegionsController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAowFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T05:07:39.294Z",
+              "WhenOpened": "2025-04-04T05:38:22.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.UI\\Views\\Region\\Add.cshtml",
+              "RelativeDocumentMoniker": "NZWalks.UI\\Views\\Region\\Add.cshtml",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.UI\\Views\\Region\\Add.cshtml",
+              "RelativeToolTip": "NZWalks.UI\\Views\\Region\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T05:20:54.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.UI\\Views\\Region\\Edit.cshtml",
+              "RelativeDocumentMoniker": "NZWalks.UI\\Views\\Region\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.UI\\Views\\Region\\Edit.cshtml",
+              "RelativeToolTip": "NZWalks.UI\\Views\\Region\\Edit.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T05:13:19.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Program.cs",
-              "RelativeDocumentMoniker": "NZWalks.API\\Program.cs",
-              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.API\\Program.cs*",
-              "RelativeToolTip": "NZWalks.API\\Program.cs*",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAAAHsAAAAqAAAAAAAAAA==",
+              "Title": "RegionController.cs",
+              "DocumentMoniker": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.UI\\Controllers\\RegionController.cs",
+              "RelativeDocumentMoniker": "NZWalks.UI\\Controllers\\RegionController.cs",
+              "ToolTip": "C:\\Users\\hossa\\OneDrive\\Desktop\\NZWalks\\NZWalks\\NZWalks.UI\\Controllers\\RegionController.cs",
+              "RelativeToolTip": "NZWalks.UI\\Controllers\\RegionController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAswGEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T05:04:13.43Z",
+              "WhenOpened": "2025-04-04T03:47:38.66Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

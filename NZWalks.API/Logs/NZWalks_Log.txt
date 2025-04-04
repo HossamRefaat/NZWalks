@@ -1,0 +1,6 @@
+﻿namespace NZWalks.API.Logs
+{
+    public class NZWalks_Log
+    {
+    }
+}
